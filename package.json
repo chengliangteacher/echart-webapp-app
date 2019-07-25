@@ -1,0 +1,43 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit",
+    "lint-fix": "eslint --fix --ext .js --ext .vue src/"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "brace": "^0.11.1",
+    "driver.js": "^0.9.6",
+    "echarts": "^4.2.1",
+    "mint-ui": "^2.2.13",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-e2e-cypress": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-plugin-unit-mocha": "^3.1.1",
+    "@vue/cli-service": "^3.1.1",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios-mock-adapter": "^1.16.0",
+    "babel-eslint": "^10.0.1",
+    "brace": "^0.11.1",
+    "chai": "^4.1.2",
+    "chance": "^1.0.18",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

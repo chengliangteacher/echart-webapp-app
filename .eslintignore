@@ -1,0 +1,8 @@
+build/*.js
+src/assets
+public
+dist
+src/mock/**/*.vue
+src/componenets/common/test-tools/**/*.vue
+src/components/vendor/**/*.vue
+src/components/**/*.js
